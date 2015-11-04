@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#3228dbff"
+        android:backgroundTintMode="src_over"
+        android:elevation="@dimen/abc_action_button_min_width_material"
+
+        >
+
+        <ImageView
+            android:layout_width="452dp"
+            android:layout_height="359dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            android:contentDescription="@string/speakit"
+
+         />
+
+        <TextView
+            android:layout_width="281dp"
+            android:layout_height="76dp"
+            android:text="@string/speakit"
+            android:id="@+id/textView5"
+            android:layout_gravity="center_horizontal|bottom"
+            android:textColor="#fffafff2"
+            android:letterSpacing="20.5"
+            android:gravity="center_vertical|center_horizontal"
+            android:height="100dp"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/heading"
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="30dip"
+            android:textColor="#fff6fdff"
+            android:typeface="sans"
+            android:shadowColor="#ff262626"
+            />
+
+        <ImageButton
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:id="@+id/drawer1"
+            android:layout_gravity="left|top"
+            android:src="@drawable/app_draw" />
+
+    </FrameLayout>
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="#ffbf26ff"
+        android:dividerHeight="2dip"
+        android:background="#fff1fdff"/>
+
+</android.support.v4.widget.DrawerLayout>
+    </RelativeLayout>

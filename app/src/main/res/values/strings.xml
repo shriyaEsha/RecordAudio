@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AudioCapture</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Recording">Android Audio Recording Application</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="play">play</string>
+
+    <string-array name="menu">
+        <item>EDIT MY NAME</item>
+        <item>TRANSCRIBE</item>
+        <item>PLAY</item>
+        <item>DELETE ME</item>
+        <item>OPEN PDF</item>
+
+       </string-array>
+
+    <string-array name="menu1">
+        <item>DELETE</item>
+        <item>OPEN</item>
+    </string-array>
+
+    <string-array name="drawermenu">
+
+        <item>VIEW FILES</item>
+        <item>RECORD</item>
+        <item>TRANSCRIBE LIVE</item>
+        <item>LOGOUT</item>
+
+    </string-array>
+
+    <item name="audioname" type="id"></item>
+<string name="save">SAVE</string>
+<string name="cancel">CANCEL</string>
+
+    <string name="app_id">792021614203057</string>
+
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="splashimage">splashimage</string>
+    <string name="heading">AUDIO CAPTURE</string>
+    <string name="speakit">Let\'s Start Transcribing!</string>
+
+
+
+
+</resources>
